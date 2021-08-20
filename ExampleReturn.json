@@ -1,0 +1,62 @@
+{
+	"GeneralData": {
+		"LanguageName": "English",
+		"ImageBasedRendering": false,
+		"GeneralAudio": {
+			"SelectYourPlayer": "http://server.com/audio/english/SelectYourPlayer.mp3",
+			"SelectYourMonster": "http://server.com/audio/english/SelectYourMonster.mp3",
+			"OtherNeededAudio": "http://server.com/audio/english/other.mp3"
+		},
+		"GeneralImages": {
+			"SelectYourPlayer": "http://server.com/images/english/SelectYourPlayerTitle.png",
+			"SelectYourMonster": "http://server.com/images/english/SelectYourMonsterTitle.png",
+			"OtherNeededImage": "http://server.com/images/english/other.png"
+		}
+	},
+	"Levels" : [
+		{
+			"LevelNumber": 3,
+			"LevelMeta": {
+				"SubSkillName": "vwl_E",
+				"SubSkillPoints": 25,
+				"LevelType": "LetterOnly",
+				"PromptType": "Visible",
+				"PromptFadeout": 0
+			},
+			"Puzzles": [
+				{
+					"SegmentNumber": 0,
+					"prompt": {"PromptText": "e", "PromptAudio": "http://server.com/audio/english/letters/e.wav"},
+					"targetstones": [ {"StoneText": "e"} ],
+					"foilstones": [ {"StoneText": "m"}, {"StoneText": "b"}, {"StoneText": "o"} ]
+				},
+				{
+					"SegmentNumber": 1,
+					"prompt": {"PromptText": "m", "PromptAudio": "http://server.com/audio/english/letters/m.wav"},
+					"targetstones": [ {"StoneText": "m"} ],
+					"foilstones": [ {"StoneText": "e"}, {"StoneText": "b"}, {"StoneText": "o"} ]
+				},
+				{
+					"SegmentNumber": 2,
+					"prompt": {"PromptText": "b", "PromptAudio": "http://server.com/audio/english/letters/b.wav"},
+					"targetstones": [ {"StoneText": "b"} ],
+					"foilstones": [ {"StoneText": "m"}, {"StoneText": "e"}, {"StoneText": "o"} ]
+				},
+				{
+					"SegmentNumber": 3,
+					"prompt": {"PromptText": "e", "PromptAudio": "http://server.com/audio/english/letters/e.wav"},
+					"targetstones": [ {"StoneText": "e"} ],
+					"foilstones": [ {"StoneText": "m"}, {"StoneText": "b"}, {"StoneText": "o"} ]
+				},
+				{
+					"SegmentNumber": 4,
+					"prompt": {"PromptText": "o", "PromptAudio": "http://server.com/audio/english/letters/o.wav"},
+					"targetstones": [ {"StoneText": "o"} ],
+					"foilstones": [ {"StoneText": "m"}, {"StoneText": "b"}, {"StoneText": "e"} ]
+				}
+			]
+		}
+
+
+	]
+}
