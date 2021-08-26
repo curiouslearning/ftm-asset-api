@@ -1,6 +1,7 @@
 {
 	"GeneralData": {
 		"LanguageName": "English",
+		"LanguageVersion": 44,
 		"ImageBasedRendering": false,
 		"GeneralAudio": {
 			"SelectYourPlayer": "http://server.com/audio/english/SelectYourPlayer.mp3",

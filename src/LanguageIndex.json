@@ -1,0 +1,25 @@
+{
+"Languages": [
+
+{
+	"LanguageName": "English",
+	"DirectoryName": "english/",
+	"NumLevels": 144
+},
+{
+	"LanguageName": "Bangala",
+	"DirectoryName": "bangala/",
+	"NumLevels": 77
+},
+{
+	"LanguageName": "Marathi",
+	"DirectoryName": "marathi/",
+	"NumLevels": 80
+}
+
+
+
+]
+
+
+}
