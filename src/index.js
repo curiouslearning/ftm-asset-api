@@ -8,9 +8,11 @@ const langindex = require('./langindex');
 
 //parse requested language name
 app.param('LanguageName', function(req, res, next, LanguageName) {
+	console.log("parsing language");
   const modified = LanguageName.toLowerCase();
 	req.params.LanguageName = modified;
 	if (langindex.langlist.indexOf(req.params.LanguageName) != -1){
+		req.params.LangNum = langindex.langlist.indexOf(req.params.LanguageName)
   	next();
 	}
 	else{
@@ -20,7 +22,8 @@ app.param('LanguageName', function(req, res, next, LanguageName) {
 
 //parse requested single level
 app.param('LevelNum', function (req, res, next, lnum) {
-	req.params.LevelNum = Math.min(lnum,langindex.langindex.Languages[langindex.langlist.indexOf(req.params.LanguageName)].NumLevels);
+	console.log("parsing single level num");
+	lnum = Math.min(lnum,langindex.langindex.Languages[req.params.LangNum].NumLevels);
 	req.params.LevelNum = Math.max(lnum,0);
 	req.params.LevelStartInc = req.params.LevelNum;
 	req.params.LevelEndInc = req.params.LevelNum;
@@ -28,14 +31,16 @@ app.param('LevelNum', function (req, res, next, lnum) {
 });
 //parse requested start level
 app.param('LevelStartInc', function (req, res, next, lnum) {
-	req.params.LevelStartInc = Math.max(lnum,0);
-	req.params.LevelStartInc = Math.min(lnum,langindex.langindex.Languages[langindex.langlist.indexOf(req.params.LanguageName)].NumLevels);
+	console.log("parsing level start number");
+	lnum = Math.max(lnum,0);
+	req.params.LevelStartInc = Math.min(lnum,langindex.langindex.Languages[req.params.LangNum].NumLevels);
 
 	next();
 });
 //parse requested end level
 app.param('LevelEndInc', function (req, res, next, lnum) {
-	req.params.LevelEndInc = Math.min(lnum,langindex.langindex.Languages[langindex.langlist.indexOf(req.params.LanguageName)].NumLevels);
+	console.log("parsing level end number");
+	lnum = Math.min(lnum,langindex.langindex.Languages[req.params.LangNum].NumLevels);
 	req.params.LevelEndInc = Math.max(lnum,0);
 	if (req.params.LevelEndInc <req.params.LevelStartInc){
 		var t = req.params.LevelStartInc;
@@ -64,7 +69,7 @@ app.get('/language/:LanguageName/:LevelNum', requestLevelRange);
 
 app.get('/language/:LanguageName', function (req, res) {
 		req.params.LevelStartInc = 0;
-		req.params.LevelEndInc = langindex.langindex.Languages[langindex.langlist.indexOf(req.params.LanguageName)].NumLevels;
+		req.params.LevelEndInc = langindex.langindex.Languages[req.params.LangNum].NumLevels;
 		requestLevelRange(req,res);
 });
 
@@ -75,7 +80,7 @@ function requestLevelRange(req, res){
 		var slevel = req.params.LevelStartInc;
 		var elevel = req.params.LevelEndInc;
 		//the good stuff will happen here
-		return res.send({RequestedLanguage: req.params.LanguageName, StartingLevel: slevel, EndingLevel: elevel});
+		return res.send({RequestedLanguage: req.params.LanguageName,LanguageNumber: req.params.LangNum, StartingLevel: slevel, EndingLevel: elevel});
 }
 
 
