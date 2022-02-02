@@ -1,0 +1,207 @@
+{
+	"GeneralData": {
+		"LanguageName": "EdgeCases",
+		"LanguageVersion": 44,
+		"ImageBasedRendering": false,
+		"GeneralAudio": {
+			"GreatAudio": "http://server.com/audio/english/feedback/great.wav",
+			"FantasticAudio": "http://server.com/audio/english/feedback/fantastic.wav"
+		},
+		"GeneralImages": {
+			"GreatImage": "http://server.com/images/english/feedback/great.png",
+			"FantasticImage": "http://server.com/images/english/feedback/fantastic.png",
+		}
+	},
+	"Levels" : [
+		{
+			"LevelNumber": 3,
+			"LevelMeta": {
+				"SubSkillName": "vwl_E",
+				"SubSkillPoints": 25,
+				"LevelType": "LetterOnly",
+				"PromptType": "Visible",
+				"PromptFadeout": 0
+			},
+			"Puzzles": [
+				{
+					"SegmentNumber": 0,
+					"SegmentLanguage":"Bengali",
+					"prompt": {"PromptText": "ড়", "PromptAudio": "http://server.com/audio/english/letters/e.wav"},
+					"targetstones": [ {"StoneText": "ড়"} ],
+					"foilstones": [ {"StoneText": "আ"}, {"StoneText": "া"}, {"StoneText": "ল"} ]
+				},
+				{
+					"SegmentNumber": 1,
+					"SegmentLanguage":"Amharic",
+					"prompt": {"PromptText": "ጰ", "PromptAudio": "http://server.com/audio/english/letters/m.wav"},
+					"targetstones": [ {"StoneText": "ጰ"} ],
+					"foilstones": [ {"StoneText": "በ"}, {"StoneText": "ነ"}, {"StoneText": "ቀ"} ]
+				},
+				{
+					"SegmentNumber": 2,
+					"SegmentLanguage":"Arabic",
+					"prompt": {"PromptText": "ض", "PromptAudio": "http://server.com/audio/english/letters/b.wav"},
+					"targetstones": [ {"StoneText": "ض"} ],
+					"foilstones": [ {"StoneText": "ﺺ"}, {"StoneText": "ﻑ"}, {"StoneText": "ﻛ"} ]
+				},
+				{
+					"SegmentNumber": 3,
+					"SegmentLanguage":"Farsi",
+					"prompt": {"PromptText": "س", "PromptAudio": "http://server.com/audio/english/letters/e.wav"},
+					"targetstones": [ {"StoneText": "س"} ],
+					"foilstones": [ {"StoneText": "م"}, {"StoneText": "ب"}, {"StoneText": "ر"} ]
+				},
+				{
+					"SegmentNumber": 4,
+					"SegmentLanguage":"Georgian",
+					"prompt": {"PromptText": "ზ", "PromptAudio": "http://server.com/audio/english/letters/o.wav"},
+					"targetstones": [ {"StoneText": "ზ"} ],
+					"foilstones": [ {"StoneText": "ღ"}, {"StoneText": "ზ"}, {"StoneText": "ტ"} ]
+				}
+			]
+		},
+		{
+			"LevelNumber": 4,
+			"LevelMeta": {
+				"SubSkillName": "vwl_E",
+				"SubSkillPoints": 25,
+				"LevelType": "LetterOnly",
+				"PromptType": "Visible",
+				"PromptFadeout": 0
+			},
+			"Puzzles": [
+				{
+					"SegmentNumber": 0,
+					"SegmentLanguage":"Gujarati",
+					"prompt": {"PromptText": "જી", "PromptAudio": "http://server.com/audio/english/letters/e.wav"},
+					"targetstones": [ {"StoneText": "જી"} ],
+					"foilstones": [ {"StoneText": "છૂ"}, {"StoneText": "ટિ"}, {"StoneText": "છિ"} ]
+				},
+				{
+					"SegmentNumber": 1,
+					"SegmentLanguage":"Hindi",
+					"prompt": {"PromptText": "मः", "PromptAudio": "http://server.com/audio/english/letters/m.wav"},
+					"targetstones": [ {"StoneText": "मः"} ],
+					"foilstones": [ {"StoneText": "त्री"}, {"StoneText": "खाे"}, {"StoneText": "शौ"} ]
+				},
+				{
+					"SegmentNumber": 2,
+					"SegmentLanguage":"Kannada",
+					"prompt": {"PromptText": "ನಃ", "PromptAudio": "http://server.com/audio/english/letters/b.wav"},
+					"targetstones": [ {"StoneText": "ನಃ"} ],
+					"foilstones": [ {"StoneText": "ಲೌ"}, {"StoneText": "ರಂ"}, {"StoneText": "ಕೌ"} ]
+				},
+				{
+					"SegmentNumber": 3,
+					"SegmentLanguage":"Kurdish",
+					"prompt": {"PromptText": "گ", "PromptAudio": "http://server.com/audio/english/letters/e.wav"},
+					"targetstones": [ {"StoneText": "گ"} ],
+					"foilstones": [ {"StoneText": "پ"}, {"StoneText": "ۆ"}, {"StoneText": "چ"} ]
+				},
+				{
+					"SegmentNumber": 4,
+					"SegmentLanguage":"Lugandan",
+					"prompt": {"PromptText": "ŋ", "PromptAudio": "http://server.com/audio/english/letters/o.wav"},
+					"targetstones": [ {"StoneText": "ŋ"} ],
+					"foilstones": [ {"StoneText": "nÿ"}, {"StoneText": "ny"}, {"StoneText": "n"} ]
+				}
+			]
+		},
+		{
+			"LevelNumber": 5,
+			"LevelMeta": {
+				"SubSkillName": "vwl_E",
+				"SubSkillPoints": 25,
+				"LevelType": "LetterOnly",
+				"PromptType": "Visible",
+				"PromptFadeout": 0
+			},
+			"Puzzles": [
+				{
+					"SegmentNumber": 0,
+					"SegmentLanguage":"Marathi",
+					"prompt": {"PromptText": "शौ", "PromptAudio": "http://server.com/audio/english/letters/e.wav"},
+					"targetstones": [ {"StoneText": "शौ"} ],
+					"foilstones": [ {"StoneText": "ङा"}, {"StoneText": "ङे"}, {"StoneText": "ठौ"} ]
+				},
+				{
+					"SegmentNumber": 1,
+					"SegmentLanguage":"Nepali",
+					"prompt": {"PromptText": "े", "PromptAudio": "http://server.com/audio/english/letters/m.wav"},
+					"targetstones": [ {"StoneText": "े"} ],
+					"foilstones": [ {"StoneText": "मि"}, {"StoneText": "ढै"}, {"StoneText": "ि"} ]
+				},
+				{
+					"SegmentNumber": 2,
+					"SegmentLanguage":"Pashto",
+					"prompt": {"PromptText": "ژ", "PromptAudio": "http://server.com/audio/english/letters/b.wav"},
+					"targetstones": [ {"StoneText": "ژ"} ],
+					"foilstones": [ {"StoneText": "چ"}, {"StoneText": "ټ"}, {"StoneText": "س"} ]
+				},
+				{
+					"SegmentNumber": 3,
+					"SegmentLanguage":"Punjabi",
+					"prompt": {"PromptText": "ਉ", "PromptAudio": "http://server.com/audio/english/letters/e.wav"},
+					"targetstones": [ {"StoneText": "ਉ"} ],
+					"foilstones": [ {"StoneText": "ਅੰ"}, {"StoneText": "ਛ"}, {"StoneText": "ਲ"} ]
+				},
+				{
+					"SegmentNumber": 4,
+					"SegmentLanguage":"Tajik",
+					"prompt": {"PromptText": "ю", "PromptAudio": "http://server.com/audio/english/letters/o.wav"},
+					"targetstones": [ {"StoneText": "ю"} ],
+					"foilstones": [ {"StoneText": "ҷ"}, {"StoneText": "ғ"}, {"StoneText": "ӯ"} ]
+				}
+			]
+		},
+		{
+			"LevelNumber": 6,
+			"LevelMeta": {
+				"SubSkillName": "vwl_E",
+				"SubSkillPoints": 25,
+				"LevelType": "LetterOnly",
+				"PromptType": "Visible",
+				"PromptFadeout": 0
+			},
+			"Puzzles": [
+				{
+					"SegmentNumber": 0,
+					"SegmentLanguage":"Tamil",
+					"prompt": {"PromptText": "சீ", "PromptAudio": "http://server.com/audio/english/letters/e.wav"},
+					"targetstones": [ {"StoneText": "சீ"} ],
+					"foilstones": [ {"StoneText": "ஞி"}, {"StoneText": "ஙு"}, {"StoneText": "ஞூ"} ]
+				},
+				{
+					"SegmentNumber": 1,
+					"SegmentLanguage":"Telugu",
+					"prompt": {"PromptText": "ఆ", "PromptAudio": "http://server.com/audio/english/letters/m.wav"},
+					"targetstones": [ {"StoneText": "ఆ"} ],
+					"foilstones": [ {"StoneText": "ఈ"}, {"StoneText": "ణూ"}, {"StoneText": "జూ"} ]
+				},
+				{
+					"SegmentNumber": 2,
+					"SegmentLanguage":"Thai",
+					"prompt": {"PromptText": "อี", "PromptAudio": "http://server.com/audio/english/letters/b.wav"},
+					"targetstones": [ {"StoneText": "อี"} ],
+					"foilstones": [ {"StoneText": "ช"}, {"StoneText": "อุ"}, {"StoneText": "ง"} ]
+				},
+				{
+					"SegmentNumber": 3,
+					"SegmentLanguage":"Ukranian",
+					"prompt": {"PromptText": "з", "PromptAudio": "http://server.com/audio/english/letters/e.wav"},
+					"targetstones": [ {"StoneText": "з"} ],
+					"foilstones": [ {"StoneText": "ж"}, {"StoneText": "и"}, {"StoneText": "ґ"} ]
+				},
+				{
+					"SegmentNumber": 4,
+					"SegmentLanguage":"Vietnamese",
+					"prompt": {"PromptText": "ọ", "PromptAudio": "http://server.com/audio/english/letters/o.wav"},
+					"targetstones": [ {"StoneText": "ọ"} ],
+					"foilstones": [ {"StoneText": "ó"}, {"StoneText": "ngh"}, {"StoneText": "ú"} ]
+				}
+			]
+		}
+
+
+	]
+}
