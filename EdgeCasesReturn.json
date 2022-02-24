@@ -200,6 +200,53 @@
 					"foilstones": [ {"StoneText": "ó"}, {"StoneText": "ngh"}, {"StoneText": "ú"} ]
 				}
 			]
+		},
+		{
+			"LevelNumber": 7,
+			"LevelMeta": {
+				"SubSkillName": "vwl_E",
+				"SubSkillPoints": 25,
+				"LevelType": "Word",
+				"PromptType": "Visible",
+				"PromptFadeout": 0
+			},
+			"Puzzles": [
+				{
+					"SegmentNumber": 0,
+					"SegmentLanguage": "Arabic",
+					"prompt": {"PromptText": "حَــدائِق", "PromptAudio": "http://server.com/audio/english/words/eat.wav"},
+					"targetstones": [ {"StoneText": "حَـ"},  {"StoneText": "ـدا"},  {"StoneText": "ئِق"} ],
+					"foilstones": [ {"StoneText": "ـكا"} ]
+				},
+				{
+					"SegmentNumber": 1,
+					"SegmentLanguage": "Arabic",
+					"prompt": {"PromptText": "تَــثاءَبَ", "PromptAudio": "http://server.com/audio/english/words/men.wav"},
+					"targetstones": [ {"StoneText": "تَـ"},  {"StoneText": "ـثا"},  {"StoneText": "ءَ"}  {"StoneText": "بَ"}],
+					"foilstones": [{"StoneText": "با"}  ]
+				},
+				{
+					"SegmentNumber": 2,
+					"SegmentLanguage": "Farsi",
+					"prompt": {"PromptText": "شیر", "PromptAudio": "http://server.com/audio/english/words/bed.wav"},
+					"targetstones": [ {"StoneText": "ش"},  {"StoneText": "ی"},  {"StoneText": "ر"} ],
+					"foilstones": [ {"StoneText": "ن"}]
+				},
+				{
+					"SegmentNumber": 3,
+					"SegmentLanguage": "Farsi",
+					"prompt": {"PromptText": "دیر", "PromptAudio": "http://server.com/audio/english/words/end.wav"},
+					"targetstones": [ {"StoneText": "د"},{"StoneText": "ی"},  {"StoneText": "ر"} ],
+					"foilstones": [ {"StoneText": "ا"} ]
+				},
+				{
+					"SegmentNumber": 4,
+					"SegmentLanguage": "Arabic",
+					"prompt": {"PromptText": "مُجْــتَــهِد", "PromptAudio": "http://server.com/audio/english/words/one.wav"},
+					"targetstones": [ {"StoneText": "مُجْـ"}, {"StoneText": "ـتَـ"}, {"StoneText": "ـهِد"} ],
+					"foilstones": [ {"StoneText": "ما"} ]
+				}
+			]
 		}
 
 
