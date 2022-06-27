@@ -75,12 +75,26 @@ app.get('/language/:LanguageName', function (req, res) {
 
 
 
-
+//actual function
 function requestLevelRange(req, res){
 		var slevel = req.params.LevelStartInc;
 		var elevel = req.params.LevelEndInc;
 		//the good stuff will happen here
 		return res.send({RequestedLanguage: req.params.LanguageName,LanguageNumber: req.params.LangNum, StartingLevel: slevel, EndingLevel: elevel});
+}
+
+
+
+//build asset address from filename
+function buildAssetAddress(language, type, filename){
+		var serverBase = "http://server.com/";
+		var address = serverBase + language + "/" + type + "/"  filename;
+		return address;
+}
+
+
+function populateAddresses(retobject){
+
 }
 
 
